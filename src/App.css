@@ -1,0 +1,46 @@
+.btn{
+    background-color: rgb(212, 1, 114);
+    width: 120px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+}
+.btn:hover{
+   background-color: rgb(255, 111, 188);
+   transition: ease-in-out 100ms;
+   transform: skewY(0.9deg);
+
+;
+}
+.card{
+    border: 2px solid black;
+    width: 300px;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+    margin-bottom: 16px;
+}
+.card:hover{
+    box-shadow: 6px 6px 14px rgba(0,0,0,0.3);
+    transition: ease-in-out 100ms;
+    border:  2px solid rgb(212, 1, 114);
+   
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+}
+.nav li{
+    cursor: pointer;
+    font-weight: bold;
+}
+.nav li:hover{
+    color: rgb(212, 1, 114);
+    transition: ease-in-out 100ms;
+    text-decoration: underline;
+}
